@@ -1,0 +1,13 @@
+.Inscrever{
+background-color: rgb(200, 0,0);
+color: white;
+border: none;
+width: 105px;
+height: 36px;
+text-transform: uppercase;
+border-radius: 2px;
+cursor: pointer;
+}
+.Join{
+    background-color: lightblue;
+}
