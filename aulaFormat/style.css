@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto";
+    background-color: #1e2235;
+    color: white;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 50px 0;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+nav img {
+    width: 54px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;  
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.linha {
+    border-left: 1px solid #fff;
+    height: 30px;
+}
+
+.btn-outline {
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.btn {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #8b5cf6;
+    background-color: #8b5cf6;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.banner-header {
+    padding-top: 5rem;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-header .esquerda {
+    width: 40%;
+    min-width: 380px;
+}
+
+.direita {
+    width: 55%;
+    background-color: white;
+}
+
+.banner-header h2 {
+    text-transform: uppercase;
+    color: #8b5cf6;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
