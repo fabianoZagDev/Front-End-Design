@@ -1,0 +1,13 @@
+div{
+    background-color: #babafd;
+}
+
+.medidaPixel{
+    width: 1000px;
+    margin-bottom: 10px;
+}
+
+.medidaPorcentagem{
+    width: 50%;
+    margin-bottom: 10px;
+}
